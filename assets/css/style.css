@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #1400c4;
+  color: #2b14ff;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5846f9;
+  background: #1c68ff;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -58,7 +58,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #7b27d8;
+  background: #1d49d8;
   color: #fff;
 }
 
@@ -124,7 +124,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(27, 27, 27, 0.8);
+  background: rgba(27, 27, 27, 0.726);
   padding: 12px 0;
 }
 
@@ -472,7 +472,7 @@ h6 {
 
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #5846f9;
+  color: #2f36ff;
 }
 
 #hero .animated {
@@ -578,7 +578,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #f94646;
+  background: #1871ff;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -598,7 +598,7 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 32px;
-  color: #2c4964;
+  color: #212121;
 }
 
 .about .content ul {
@@ -630,7 +630,7 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(45deg, #6291ff 0%, #4986ff 100%);
+  background: linear-gradient(45deg, #1a44ff 0%, #4986ff 100%);
   position: relative;
 }
 
@@ -646,10 +646,10 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Counts
+# update
 --------------------------------------------------------------*/
 .news {
-  background: linear-gradient(90deg, rgba(74, 186, 255, 0.796) 0%, rgba(48, 148, 255, 0.708) 100%), url("../img/counts-bg.png") center center no-repeat;
+  background: linear-gradient(90deg, rgba(74, 186, 255, 0.796) 0%, rgba(48, 148, 255, 0.708) 100%), url("../img/update-bg.png") center center no-repeat;
   padding: 80px 0 60px 0;
   color: aliceblue;
 }
@@ -849,11 +849,11 @@ section {
 }
 
 #footer .footer-top .footer-contact h3 {
-  font-size: 28px;
+  font-size: 25px;
   margin: 0 0 30px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -910,66 +910,6 @@ section {
   color: #fff;
 }
 
-#footer .footer-newsletter {
-  font-size: 15px;
-}
-
-#footer .footer-newsletter h4 {
-  font-size: 16px;
-  font-weight: bold;
-  position: relative;
-  padding-bottom: 12px;
-}
-
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 5px;
-  text-align: left;
-  border: 1px solid white;
-}
-
-#footer .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
-
-#footer .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: -1px;
-  right: -2px;
-  bottom: -1px;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: rgba(123, 39, 216, 0.8);
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 5px 5px 0;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-#footer .footer-newsletter form input[type=submit]:hover {
-  background: #5846f9;
-}
-
-#footer .copyright-wrap {
-  border-top: 1px solid #8577fb;
-}
-
-#footer .credits {
-  padding-top: 5px;
-  font-size: 13px;
-  color: #fff;
-}
-
-#footer .credits a {
-  color: #fff;
-}
 
 #footer .social-links a {
   font-size: 18px;
