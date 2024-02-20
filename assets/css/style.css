@@ -86,7 +86,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #4670f9;
+  border: 6px solid #4a75ff;
   border-top-color: #e7e4fe;
   border-radius: 50%;
   width: 60px;
@@ -381,7 +381,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #5846f9;
+  color: #147aff;
 }
 
 .navbar-mobile .getstarted,
@@ -429,7 +429,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(30, 120, 255, 0.9) 0%, rgba(101, 148, 255, 0.9) 100%), url("../img/hero-bg-1.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(28, 142, 255, 0.9) 0%, rgba(58, 176, 255, 0.9) 100%), url("../img/hero-bg-1.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -472,7 +472,7 @@ h6 {
 
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #2f36ff;
+  color: #1e5aff;
 }
 
 #hero .animated {
@@ -590,6 +590,14 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+/* mobile view */
+
+@media screen and (max-width: 480px) {
+  .about-img{
+    padding-bottom: 5px;
+  }
+}
+
 .about {
   padding: 120px 0;
   min-height: fit-content;
@@ -613,7 +621,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #00ff1a;
+  color: #00cb22;
 }
 
 .about .content p:last-child {
@@ -630,12 +638,12 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(45deg, #1a44ff 0%, #4986ff 100%);
+  background: linear-gradient(45deg, #2580ff 0%, #518bff 100%);
   position: relative;
 }
 
 .about .content .read-more:hover {
-  background: linear-gradient(180deg, #4986ff 0%, #557dff 100%);
+  background: linear-gradient(180deg, #518bff 0%, #2580ff 100%);
 }
 
 .about .content .read-more i {
@@ -649,7 +657,7 @@ section {
 # update
 --------------------------------------------------------------*/
 .news {
-  background: linear-gradient(90deg, rgba(74, 186, 255, 0.796) 0%, rgba(48, 148, 255, 0.708) 100%), url("../img/update-bg.png") center center no-repeat;
+  background: linear-gradient(90deg, #50bcffcb 0%, rgba(61, 161, 255, 0.708) 100%), url("../img/update-bg.png") center center no-repeat;
   padding: 80px 0 60px 0;
   color: aliceblue;
 }
@@ -657,6 +665,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
 .services{
   padding: 120px 0;
 }
@@ -678,123 +687,12 @@ section {
   position: relative;
 }
 
-.services .icon-box .icon i {
-  font-size: 36px;
-  transition: 0.5s;
-  position: relative;
-}
-
-.services .icon-box .icon svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.services .icon-box .icon svg path {
-  transition: 0.5s;
-  fill: #f5f5f5;
-}
-
-.services .icon-box h4 {
-  font-weight: 600;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
-}
-
-.services .icon-box h4 a {
-  color: #2c4964;
-  transition: ease-in-out 0.3s;
-}
-
-.services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.services .icon-box:hover {
-  border-color: #fff;
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-}
-
-.services .iconbox-blue i {
-  color: #47aeff;
-}
-
-.services .iconbox-blue:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
-}
-
-.services .iconbox-orange i {
-  color: #ffa76e;
-}
-
-.services .iconbox-orange:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
-}
-
-.services .iconbox-pink i {
-  color: #e80368;
-}
-
-.services .iconbox-pink:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-pink:hover .icon path {
-  fill: #e80368;
-}
-
-.services .iconbox-yellow i {
-  color: #ffbb2c;
-}
-
-.services .iconbox-yellow:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
-}
-
-.services .iconbox-red i {
-  color: #ff5828;
-}
-
-.services .iconbox-red:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-red:hover .icon path {
-  fill: #ff5828;
-}
-
-.services .iconbox-teal i {
-  color: #11dbcf;
-}
-
-.services .iconbox-teal:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
-}
-
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact{
-  padding: 120px 0;
+  padding-bottom: 140px;
 }
 
 .contact .info-box {
@@ -807,7 +705,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #5846f9;
+  color: #3f8cff;
   border-radius: 50%;
   padding: 8px;
 }
